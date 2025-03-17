@@ -1,0 +1,17 @@
+{
+  "name": "fizz",
+  "version": "1.0.0",
+  "main": "dist/main.js",
+  "scripts": {
+    "build": "tsc -p ./tsconfig.json",
+    "start": "node dist/main.js",
+    "dev": "nodemon -e ts --exec \"npm run build && npm run start\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "zod": "^3.24.2"
+  }
+}
